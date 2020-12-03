@@ -1,0 +1,26 @@
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+
+#onderkant{
+    width: 900px;
+    height: 300px;
+    background-color: red;
+}
+
+#links-boven{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+#rechts-boven{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+}

@@ -1,0 +1,39 @@
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    display: flex;
+}
+
+
+#linksboven{
+    width: 300px;
+    height: 270px;
+    background-color: red;
+    border-right: 30px solid white;
+    border-bottom: 30px solid white;
+}
+#linksonder{
+    width: 300px;
+    height: 270px;
+    background-color: red;
+    border-right: 30px solid white;
+    border-top: 30px solid white;
+}
+
+ 
+#rechtsboven{
+    width: 540px;
+    height: 270px;
+    background-color: red;
+    border-left: 30px solid white;
+    border-bottom: 30px solid white;
+}
+#rechtsonder{
+    width: 540px;
+    height: 270px;
+    background-color: red;
+    border-left: 30px solid white;
+    border-top: 30px solid white;
+}
