@@ -1,10 +1,21 @@
 let persoon = {
+    
     voornaam : prompt("Wat is je naam?"),
     achternaam : prompt("Wat is je achternaam?"),
     leeftijd : prompt("Wat is je leeftijd?"),
     email : prompt("Wat is je e-mail?"),
     woonplaats : prompt("Wat is je woonplaats?")
 };
+
+
+console.log(bezoeker);
+
+document.querySelector("h1").innerHTML = bezoeker.voornaam + " " + bezoeker.achternaam;
+document.querySelector("#voornaam").innerHTML = bezoeker.voornaam;
+document.querySelector("#achternaam").innerHTML = bezoeker.achternaam;
+document.querySelector("#woonplaats").innerHTML = bezoeker.woonplaats;
+document.querySelector("#email").innerHTML = bezoeker.email;
+
 
 if(persoon.leeftijd == 16){
     document.body.style.backgroundColor = 'orange';
