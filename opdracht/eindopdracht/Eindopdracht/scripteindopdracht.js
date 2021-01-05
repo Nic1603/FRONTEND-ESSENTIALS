@@ -8,7 +8,7 @@ let persoon = {
 };
 
 
-console.log(bezoeker);
+console.log("bezoeker");
 
 document.querySelector("h1").innerHTML = bezoeker.voornaam + " " + bezoeker.achternaam;
 document.querySelector("#voornaam").innerHTML = bezoeker.voornaam;
