@@ -1,20 +1,20 @@
 let persoon = {
     
-    voornaam : prompt("Wat is je naam?"),
-    achternaam : prompt("Wat is je achternaam?"),
-    leeftijd : prompt("Wat is je leeftijd?"),
-    email : prompt("Wat is je e-mail?"),
-    woonplaats : prompt("Wat is je woonplaats?")
-};
+    voornaam: prompt("Wat is je naam?"),
+    achternaam: prompt("Wat is je achternaam?"),
+    leeftijd: prompt("Wat is je leeftijd?"),
+    email: prompt("Wat is je e-mail?"),
+    woonplaats: prompt("Wat is je woonplaats?")
+}
 
 
-console.log("bezoeker"); 
+console.log("persoon"); 
 
-document.querySelector("h1").innerHTML = bezoeker.voornaam + " " + bezoeker.achternaam;
-document.querySelector("#voornaam").innerHTML = bezoeker.voornaam;
-document.querySelector("#achternaam").innerHTML = bezoeker.achternaam;
-document.querySelector("#woonplaats").innerHTML = bezoeker.woonplaats;
-document.querySelector("#email").innerHTML = bezoeker.email;
+document.querySelector("h1").innerHTML = persoon.voornaam + " " + persoon.achternaam;
+document.querySelector("#voornaam").innerHTML = persoon.voornaam;
+document.querySelector("#achternaam").innerHTML = persoon.achternaam;
+document.querySelector("#woonplaats").innerHTML = persoon.woonplaats;
+document.querySelector("#email").innerHTML = persoon.email;
 
 
 if(persoon.leeftijd == 16){
